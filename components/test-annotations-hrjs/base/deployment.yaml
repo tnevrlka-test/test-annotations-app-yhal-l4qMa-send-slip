@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-hrjs
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-ochs-tenant/test-annotations-app-yhal/test-annotations-hrjs@sha256:7bca8ee1698f8886a905e5ebaefbff41aa7524d842435b2ac0967cfb0d35a567
         name: my-nginx
         ports:
         - containerPort: 8080
