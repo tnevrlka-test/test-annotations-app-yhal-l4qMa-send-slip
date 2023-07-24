@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-hrjs
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-ochs-tenant/test-annotations-app-yhal/test-annotations-hrjs@sha256:7bca8ee1698f8886a905e5ebaefbff41aa7524d842435b2ac0967cfb0d35a567
+        name: my-nginx
+        resources: {}
+status: {}
